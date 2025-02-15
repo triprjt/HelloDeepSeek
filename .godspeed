@@ -1,0 +1,22 @@
+{
+  "mongodb": {
+    "mode": "single",
+    "dbName": "godspeed",
+    "ports": [
+      27017
+    ]
+  },
+  "postgresql": false,
+  "kafka": false,
+  "elasticsearch": false,
+  "redis": false,
+  "servicePort": 3000,
+  "gsNodeServiceVersion": "latest",
+  "projectName": "HelloWorldAI",
+  "meta": {
+    "createTimestamp": "2025-02-15T09:18:19.287Z",
+    "lastUpdateTimestamp": "2025-02-15T09:18:19.287Z",
+    "cliVersionWhileCreation": "2.9.4",
+    "cliVersionWhileLastUpdate": "2.9.4"
+  }
+}
