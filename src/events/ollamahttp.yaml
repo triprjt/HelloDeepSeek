@@ -1,0 +1,22 @@
+http.post./chat:
+  summary: 'Multi-provider chat completion endpoint'
+  authn: false
+  fn: chat
+  body:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            prompt:
+              type: string
+  responses:
+    200:
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              response:
+                type: string
+            required: [response]
